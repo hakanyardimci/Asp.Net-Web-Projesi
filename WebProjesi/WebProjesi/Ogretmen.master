@@ -53,7 +53,7 @@
                             Mesajlar
                             </a>
                             <ul class="collapse list-unstyled" id="homeSubmenu3">
-                                <li><a href="MesajYaz.Aspx"><i class="glyphicon glyphicon-pencil"></i>Mesaj Gönder</a></li>
+                                <li><a href="MesajOlustur.Aspx"><i class="glyphicon glyphicon-pencil"></i>Mesaj Gönder</a></li>
                                 <li><a href="GelenMesajlar.Aspx"><i class="glyphicon glyphicon-download"></i>Gelen Mesajlar</a></li>
                                 <li><a href="GidenMesajlar.Aspx"><i class="glyphicon glyphicon-upload"></i>Giden Mesajlar</a></li>
                             </ul></li>
@@ -77,7 +77,7 @@
 
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="Istatistik.aspx">
                         <i class="glyphicon glyphicon-blackboard"></i>
                         İstatislikler
                     </a>

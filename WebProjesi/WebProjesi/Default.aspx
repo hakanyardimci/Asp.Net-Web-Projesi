@@ -23,24 +23,12 @@
 
                     <tr>
 
-                        <td>
-                            <%#Eval("OGRAD") %> 
-                        </td>
-                        <td>
-                            <%#Eval("NUMARA") %> 
-                        </td>
-                        <td>
-                            <%#Eval("OGRSOYAD") %> 
-                        </td>
-                        <td>
-                            <%#Eval("OGRTELEFON") %> 
-                        </td>
-                        <td>
-                            <%#Eval("OGRMAIL") %> 
-                        </td>
-                        <td>
-                            <%#Eval("OGRSIFRE") %> 
-                        </td>
+                        <td> <%#Eval("OGRAD") %> </td>
+                        <td><%#Eval("NUMARA") %> </td>
+                        <td> <%#Eval("OGRSOYAD") %> </td>
+                        <td><%#Eval("OGRTELEFON") %> </td>
+                        <td><%#Eval("OGRMAIL") %>  </td>
+                        <td><%#Eval("OGRSIFRE") %>  </td>
                         <td>
                             <asp:HyperLink ID="HyperLink1" NavigateUrl='<%#"~/OgrenciSil.aspx?OGRID="+Eval("OGRID")%>' runat="server" CssClass="btn btn-danger">SİL</asp:HyperLink>
                             <asp:HyperLink ID="HyperLink2" NavigateUrl='<%#"~/OgrenciGuncelle.aspx?OGRID="+Eval("OGRID")%>' runat="server" CssClass="btn btn-success">GÜNCELLE</asp:HyperLink>
@@ -52,5 +40,3 @@
         </tbody>
     </table>
 </asp:Content>
-
-<%--<th scope="row">1</th>--%>
