@@ -5,12 +5,12 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-public partial class OgrenciNotu : System.Web.UI.Page
+public partial class Duyurular2 : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        DataSetTableAdapters.OgrNotlarTableAdapter dt = new DataSetTableAdapters.OgrNotlarTableAdapter();
-        Repeater1.DataSource = dt.OgrenciNotu(Session["NUMARA"].ToString());
+        DataSetTableAdapters.TBL_DUYURULARTableAdapter dt = new DataSetTableAdapters.TBL_DUYURULARTableAdapter();
+        Repeater1.DataSource = dt.OgrenciDuyuruListesi();
         Repeater1.DataBind();
     }
 }

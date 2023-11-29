@@ -34,6 +34,7 @@
             <div>
                 <asp:TextBox ID="TxtFotograf" runat="server" CssClass="form-control" Enabled="False">Fotoğraf</asp:TextBox>
             </div>
+            <br />
         </div>
          <asp:Button ID="Button1" runat="server" Text="Güncelle" CssClass="btn btn-info" OnClick="Button1_Click"/>
     </form>

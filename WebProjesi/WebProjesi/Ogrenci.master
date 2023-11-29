@@ -32,7 +32,7 @@
             <ul class="list-unstyled components">
               
                 <li>
-                    <a href="OgrenciDefault.aspx?Numara=123">
+                    <a href="OgrenciDefault.aspx">
                         <i class="glyphicon glyphicon-home"></i>
                         Profilim
                     </a>
@@ -42,14 +42,14 @@
                             Mesajlar
                         </a>
                         <ul class="collapse list-unstyled" id="homeSubmenu3">
-                            <li><a href="MesajOlustur.Aspx"><i class="glyphicon glyphicon-pencil"></i>Mesaj Gönder</a></li>
-                            <li><a href="GelenMesajlar.Aspx"><i class="glyphicon glyphicon-download"></i>Gelen Mesajlar</a></li>
-                            <li><a href="GidenMesajlar.Aspx"><i class="glyphicon glyphicon-upload"></i>Giden Mesajlar</a></li>
+                            <li><a href="OgrenciMesajOlustur.Aspx"><i class="glyphicon glyphicon-pencil"></i>Mesaj Gönder</a></li>
+                            <li><a href="OgrenciGelenMesajlar.Aspx"><i class="glyphicon glyphicon-download"></i>Gelen Mesajlar</a></li>
+                            <li><a href="OgrenciGidenMesajlar.Aspx"><i class="glyphicon glyphicon-upload"></i>Giden Mesajlar</a></li>
                         </ul>
                     </li>
 
                 <li>
-                    <a href="DuyuruListesi.aspx">
+                    <a href="Duyurular2.aspx">
                         <i class="glyphicon glyphicon-bell"></i>
                         Duyurular
                     </a>

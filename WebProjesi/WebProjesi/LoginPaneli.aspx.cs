@@ -32,4 +32,23 @@ public partial class LoginPaneli : System.Web.UI.Page
             TxtSifre.Text = "Hatalı Şifre";
         }
     }
+
+    protected void btnIptalEt_Click(object sender, EventArgs e)
+    {
+        baglanti.Open();
+        SqlCommand komut = new SqlCommand("Select * From TBL_OGRETMEN Where OGRTNUMARA=@p1 and OGRTSIFRE=@p2", baglanti);
+        komut.Parameters.AddWithValue("@p1", TxtNumara.Text);
+        komut.Parameters.AddWithValue("@p2", TxtSifre.Text);
+        SqlDataReader dr = komut.ExecuteReader();
+
+        if (dr.Read())
+        {
+            Session.Add("OGRTNUMARA", TxtNumara.Text);
+            Response.Redirect("Default.aspx");
+        }
+        else
+        {
+            TxtSifre.Text = "Hatalı Şifre";
+        }
+    }
 }

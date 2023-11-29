@@ -65,9 +65,7 @@
             <br />
             <br />
             <strong>
-                <asp:Button ID="btnIptalEt" runat="server" Text="İptal Et" CssClass="btn btn-danger" Width="200" Style="font-weight: bold" />
-                <asp:Button ID="btnSifremiUnuttum" runat="server" Text="Şifremi Unuttum" CssClass="btn btn-default" Width="200" Style="font-weight: bold" />
-                <asp:Button ID="btnYardim" runat="server" Text="Yardim" CssClass="btn btn-info" Width="200" Style="font-weight: bold" />
+                <asp:Button ID="btnIptalEt" runat="server" Text="Öğretmen Girişi" CssClass="btn btn-danger" Width="200" Style="font-weight: bold" OnClick="btnIptalEt_Click" />
             </strong>
         </div>
     </form>
